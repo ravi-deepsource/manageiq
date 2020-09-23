@@ -1,0 +1,11 @@
+version = 1
+
+test_patterns = ["spec/**/*.rb"]
+
+[[analyzers]]
+name = "ruby"
+enabled = true
+
+[[transformers]]
+name = "standardrb"
+enabled = true
